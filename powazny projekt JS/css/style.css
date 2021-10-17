@@ -15,11 +15,11 @@ header{
 background-color: #4d7752;
 	position: absolute;
 	float: left;
-	width: 200px;
+	width: 300px;
 	height: 500px;
 	overflow-y: scroll;
 	margin: 5px;
-font: 24px/36px sans-serif;
+font: 18px sans-serif;
 
 }
 ::-webkit-scrollbar {
@@ -49,7 +49,7 @@ li{
 	margin: auto;
 	margin-top: 5px;
 	text-align: center;
-	line-height: 50px;
+	/*line-height: 50px;*/
 }
 main{
 	position: relative;
