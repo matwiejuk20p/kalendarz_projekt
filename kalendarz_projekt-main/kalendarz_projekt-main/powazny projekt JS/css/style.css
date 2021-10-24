@@ -1,0 +1,101 @@
+
+body{
+	color: white;
+	background-color: #efb34a;
+}
+header{
+	display: flex;
+	justify-content: center;
+	margin: 5px;
+	background-color: #194a40;
+	font: 24px/36px sans-serif;
+}
+
+/*nav*/.scroll {
+background-color: #4d7752;
+	position: absolute;
+	float: left;
+	width: 300px;
+	height: 500px;
+	overflow-y: scroll;
+	margin: 5px;
+font: 18px sans-serif;
+
+}
+::-webkit-scrollbar {
+width: 12px;
+height: 12px;
+}
+::-webkit-scrollbar-track {
+border: 1px solid #194a40;
+border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+background: #194a40;
+border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+background: white;
+}
+ul{
+	width: 100%;
+	list-style-type: none;
+	padding: 0;
+}
+li{
+	width: 90%;
+	height: 50px;
+	background-color: #9bc990;
+	margin: auto;
+	margin-top: 5px;
+	text-align: center;
+	/*line-height: 50px;*/
+}
+main{
+	position: relative;
+	margin-left: 200px;
+}
+section{
+	width: 40%;
+	margin: auto;
+	border: 1px solid black;
+	height: 380px;
+	background:radial-gradient(#dabea7 ,#dfb27c);
+}
+.kartka{
+font-size: 24px;
+font-family:Luminari, fantasy;
+text-align: center;
+ 
+}
+.dzien{
+	color: crimson;
+	font-size: 90px;
+	margin: 0;
+}
+.miesiac{
+	color: rgba(0,0,0,.6);
+	text-shadow: 3px 2px 3px rgba(255,255,255,.2);
+	margin: 0;
+}
+.swieto{
+	color: rgba(0,0,0,.6);
+	text-shadow: 3px 2px 3px rgba(255,255,255,.2);
+	text-decoration: underline;
+	font-size: 50px;
+	margin-bottom: 60px;
+	margin-top: 30px;
+}
+.imieniny{
+	color: rgba(0,0,0,.6);
+	text-shadow: 3px 2px 3px rgba(255,255,255,.2);
+	font-size: 40px;
+	margin: 0;
+}
+h3{
+	color: rgba(0,0,0,.6);
+
+text-shadow: 3px 2px 3px rgba(255,255,255,.2);
+	margin: 0;
+}
+}
