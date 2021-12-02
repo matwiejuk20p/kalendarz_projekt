@@ -1218,7 +1218,7 @@
 
 			var czas_zmienny = zero(czas.getHours())+":"+zero(czas.getMinutes())+":"+zero(czas.getSeconds());
 
-			var data = zero(czas.getDate())+"."+zero((czas.getMonth()+1))+"."+czas.getFullYear()+" "+DzienTygodnia[czas.getDay()];
+			var data = zero(czas.getDate()+1)+"."+zero((czas.getMonth()+1))+"."+czas.getFullYear()+" "+DzienTygodnia[czas.getDay()];
 
 			document.querySelector("#fczas").innerHTML=czas_zmienny
 
@@ -1236,6 +1236,7 @@
         {
             if(document.querySelectorAll("li")[i].getAttribute('vdata') == data){
 				wyswietlanie(i)
+		    		
 				break;
 			}	
         }
